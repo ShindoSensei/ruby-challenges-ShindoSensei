@@ -9,3 +9,12 @@
 # > 5
 # > 10
 # > 15
+
+def multiply_by(array,number)
+  newarray = array.map{|i| i * number}
+  for i in newarray
+    puts i
+  end
+end
+
+multiply_by([1,2,3],5)
